@@ -1,2 +1,3 @@
-# LESSON_HTML-and-CSS_02
-Repetition for HTML and CSS
+# Another Lesson
+Repetition for HTML and CSS, git and even markdown
+
