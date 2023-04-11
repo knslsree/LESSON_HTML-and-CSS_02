@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My another webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--Th ebody on my page-->
     <header>
         <!-- Sidehead and navigation-->
-        <h1> My webpage</h1>
+        
+        
         <a href="index.html"> Startwebpage</a>
         <a href="about.html"> About me</a>
         <a href="hobbys.html">My hobbys</a>
@@ -19,6 +21,16 @@
     </header>
     <main>
 <!---Main content on my side --->
+<h1> Contact me</h1>
+<form>
+    <label for="name">Name:</label><br>
+    <input class="my-form" type="text" id="name" name="name"> <br>
+    <label for="email">Email:</label><br>
+    <input class="my-form" type="email" id="email" name="email"><br>
+    <label for="message" > Message:</label><br>
+    <textarea class="my-form" id="message" name="message"></textarea><br>
+    <input type="submit" value="send"><br>
+</form>
 <p id="my-id"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eaque aperiam ex est, soluta aliquid unde, saepe quae dolore sapiente ullam perspiciatis magni commodi dicta nulla quasi vero amet similique!</p>
 <p class="my-class"></p>
 <p class="two classes"></p>

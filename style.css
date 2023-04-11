@@ -1,0 +1,26 @@
+/* comments for css*/
+/* take away extra space in body*/
+body{
+    margin: 0;
+
+}
+/* Footer in the bottom, always*/
+main{
+    flex:1 ;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Verdana;
+    }
+    /*Footer in the bottom end*/
+    .my-class{
+        color: green;
+    }
+    #my-id{
+        color: rgb(255, 0, 0);
+    }
+    .two.classes{
+        color:#0000ff;
+    }
